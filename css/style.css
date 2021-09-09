@@ -5,6 +5,9 @@
   }
   body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: url(../images/bg-img-1.jpg);
+    background-size: cover;
+    background-position: left bottom;
   }
   h1{
     font-family: 'Lobster', cursive;
@@ -20,10 +23,12 @@
     }
     .btn-fonts{
         font-family: 'Lobster', cursive;
+        font-size: 15px;
+        text-transform: uppercase;
     }
     p{
         color: black;
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 20px;
     }
     
@@ -66,7 +71,7 @@
       padding: 50px;
   }
   .img-1{
-      width: 55%;
+      width: 60%;
   }
   .div-half{
       width: 50%;
@@ -75,4 +80,20 @@
   .side{
       margin-left: 30px; 
   }
-  
+  .experience{
+    display: flex;
+}
+.half-experience{
+    width: 50%;
+    margin: 40px;
+    padding: 40px 30px;
+    border-left: 10px solid;
+    border-image: linear-gradient(orange,yellow);
+    border-image-slice: 1;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px gray;
+}
+.footer{
+    text-align: center;
+}
+
